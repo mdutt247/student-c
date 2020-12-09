@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+int a,soa,sob,soc;
+float b;
+char c;
+
+
+soa=sizeof(a);
+sob=sizeof(b);
+soc=sizeof(c);
+
+printf("Int Size:%d \n Float Size:%d \n Character Size:%d",soa,sob,soc);
+
+}
